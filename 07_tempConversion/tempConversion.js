@@ -1,4 +1,5 @@
-const convertToCelsius = function() {
+const convertToCelsius = function(deg) {
+  return Math.round(((deg-32)*5/9)*10)/10;
 };
 
 const convertToFahrenheit = function() {
